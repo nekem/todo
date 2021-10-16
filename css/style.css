@@ -1,0 +1,45 @@
+* {
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+}
+.body {
+    width: 500px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-shadow: 0px 0px 64px rgb(202, 202, 202);
+    padding-bottom: 24px;
+    border-radius: 12px;
+    display: inline-block;
+}
+.header > h1 {
+    background-color: black;
+    color: white;
+    font-size: 32px;
+    padding: 12px;
+    border-radius: 12px 12px 0px 0px;
+}
+.content {
+    margin: 24px;
+}
+.todo-input {
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-bottom: 3px solid black;
+    font-size: 24px;
+}
+.todo-input:focus {
+    outline: none;
+}
+button {
+    border: none;
+}
+.submit {
+    width: 100px;
+    height: 50px;
+    margin: 12px;
+    font-size: 17px;
+}
+.item {
+    margin: 8px;
+}
